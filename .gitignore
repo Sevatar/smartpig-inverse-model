@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Model checkpoints, research data, and local credentials are not source.
+*.h5
+*.keras
+*.ckpt*
+*.npy
+*.npz
+*.tfrecord*
+.env*
+/data/
+/datasets/
+/checkpoints/
